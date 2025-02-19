@@ -1,5 +1,4 @@
-(ns password-strength-checker.core
-  (:require [clojure.string :as str]))
+(ns password-strength-checker.core)
 
 (defn pass-count [input]
   ;; count the size of the input. Should be greater than 8
